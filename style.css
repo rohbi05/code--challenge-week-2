@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Dancing+Script:wght@400..700&family=Lobster&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+background-image: url(https://images.unsplash.com/photo-1531736275454-adc48d079ce9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    
+background-image: url(https://images.unsplash.com/photo-1564951434112-64d74cc2a2d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGxhaW4lMjBjb2xvdXJ8ZW58MHx8MHx8fDA%3D);;
+background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+ background-image: url(https://images.unsplash.com/photo-1564951434112-64d74cc2a2d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGxhaW4lMjBjb2xvdXJ8ZW58MHx8MHx8fDA%3D);;
+    background-color:grey;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow:0 0  40px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+; 
+}
+
+h1 {
+    margin-bottom: 20px;
+    color:black; 
+    
+    font-family: "Dancing Script", cursive;
+}
+
+.input{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background:white;
+    color: black;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background: palegreen;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background: #f4f4f4;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+li.purchased {
+    text-decoration: line-through;
+    background-color: #d3d3d3; 
+    font-family: "Dancing Script", cursive;
+}
+
+li button {
+    margin-left: 5px;
+    font-family: "Dancing Script", cursive;
+}
+
+button.clear {
+    background:paleturquoise;
+    border-radius: 5px;
+    margin-top: 10px;
+font-family: "Dancing Script", cursive;
+}
+
+button.clear:hover {
+    background: blue;
+}
